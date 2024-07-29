@@ -1,0 +1,305 @@
+body{
+    background-color: #00000d;
+}
+div{
+    color: white;
+}
+#bigParent{
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    background-color:#36454F;
+    height: 205vh;
+    margin: 15px;
+}
+#left{
+    background-color: #001128;
+    width: 25%;
+    height: 123vh;
+    margin: 6px;
+}
+#right{
+    background-color: #001128;
+    width: 70%;
+    height: 123vh;
+    margin: 6px;
+}
+#end{
+    background-color: #000026;
+    width:5%;
+    height: 123vh;
+    margin: 6px;   
+}
+
+#bottom{
+    background-color: #001128;
+    position: absolute;
+    top: 1100px;
+    left: 23px;
+    border-style: none;
+    height: 78vh;
+    width: 97%;
+    margin: 6px;
+}
+#me{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 1560px;
+    top: 80px;
+}
+
+#name{
+    position: absolute;
+    right: 1560px;
+    top: 250px;
+    font-size: 25px;
+}
+#fact1{
+    position: absolute;
+    right: 1550px;
+    top: 285px;
+    font-size: 15px;
+    opacity: .6;
+}
+#fact2{
+    position: absolute;
+    right: 1570px;
+    top: 310px;
+    font-size: 15px;
+    opacity: .6;
+}
+#empty{
+    border-style: solid;
+    position: absolute;
+    top: 400px;
+    width: 449px;
+    border-width: thin
+}
+#lang{
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color:#bea827;
+}
+
+#h{
+    position: absolute;
+    top: 470px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#c{
+    position: absolute;
+    top: 495px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#js{
+    position: absolute;
+    top: 525px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#p{
+    position: absolute;
+    top: 555px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#j{
+    position: absolute;
+    top: 585px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#langS{
+    position: absolute;
+    top: 645px;
+    left: 50px;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color:#bea827;
+}
+#span{
+    position: absolute;
+    top: 680px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#eng{
+    position: absolute;
+    top: 710px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#mail{
+    position: absolute;
+    top: 770px;
+    left: 50px;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color:#bea827;
+}
+#gm{
+    position: absolute;
+    top: 805px;
+    left: 50px;
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+#social{
+    position: absolute;
+    top: 865px;
+    left: 50px;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color:#bea827;
+}
+#git{
+    position: absolute;
+    top: 905px;
+    left: 45px;
+}
+#link{
+    position: absolute;
+    top: 910px;
+    left: 110px;
+}
+#insta{
+    position: absolute;
+    top: 900px;
+    left: 160px;
+}
+
+
+#edu{
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    font-size:40px;
+    color:#bea827
+}
+#eduPar1{
+    border-style: solid;
+    padding: 30px;
+    margin-top: 50px;
+    width: 850px;
+    position: absolute;
+    top: 130px;
+    left: 785px;
+    border-width: thin;
+    font-size:20px;
+}
+#lineUp{
+    border-style: solid;
+    position: absolute;
+    height: 380px;
+    left: 720px;
+    top:150px;
+    border-width: thin;
+}
+#eduPar2{
+    border-style: solid;
+    padding: 30px;
+    margin-top: 50px;
+    width: 850px;
+    position: absolute;
+    top: 310px;
+    left: 785px;
+    border-width: thin;
+    font-size:20px;
+}
+#tech{
+    position: absolute;
+    top: 570px;
+    left: 570px;
+    font-size:40px;
+    color:#bea827
+}
+#techLine{
+    border-style: solid;
+    position: absolute;
+    height: 380px;
+    left: 720px;
+    top:675px;
+    border-width: thin;
+}
+#techP{
+    border-style: solid;
+    padding: 30px;
+    margin-top: 50px;
+    width: 850px;
+    position: absolute;
+    top: 630px;
+    left: 785px;
+    border-width: thin;
+    font-size: 20px;
+}
+#techP2{
+    border-style: solid;
+    padding: 30px;
+    margin-top: 50px;
+    width: 850px;
+    position: absolute;
+    top: 820px;
+    left: 785px;
+    border-width: thin;
+    font-size: 20px;
+}
+#hobby{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    font-size:40px;
+    color:#bea827
+}
+#randList{
+    border-style: solid;
+    padding: 30px;
+    margin-top: 50px;
+    width: 450px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    border-width: thin;
+    font-size:20px;
+}
+#job{
+    position: absolute;
+    top: 100px;
+    left: 1300px;
+    font-size:40px;
+    color:#bea827
+}
+#major{
+    border-style: solid;
+    padding: 30px;
+    margin-top: 50px;
+    width: 450px;
+    position: absolute;
+    top: 130px;
+    left: 1100px;
+    border-width: thin;
+    font-size:20px;
+}
+#copyRight{
+    position: absolute;
+    left: 780px;
+    top: 655px;
+    opacity: .5;
+}
